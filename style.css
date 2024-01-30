@@ -1,0 +1,131 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-size:14px;
+	font-family: 'Lato', Arial, sans-serif;
+	color:#3a290a;
+	line-height:18px;
+	font-weight:300;
+	background:url(img/bg.jpg) repeat-x center 0 #c0bbba;
+}
+
+h1, h2{
+	font-size:74px;
+	line-height: 60px;
+	font-weight:100;
+	text-transform: uppercase;
+}
+h1{
+	border-top:1px solid rgba(255,255,255,.3);
+	border-bottom:1px solid rgba(255,255,255,.3);
+	margin-top: 155px;
+	padding: 30px 0;
+	margin-bottom:20px;
+}
+
+h1 span{
+	color:#ff7800;
+	display:block;
+}
+
+h2{
+	font-style: italic;
+	font-size:22px;
+	font-weight: 300;
+	line-height: 20px;
+	background:rgba(225,221,219,.5);
+	padding:5px;
+}
+
+.inner{
+	width:525px;
+	padding:0 5px;
+	margin:0 auto;
+}
+
+.column{
+	width:45%;
+	float:left;
+	margin-left: 20px;
+}
+#mon{
+	position:absolute;
+	display:block;
+	left:50%;
+	top:30px;
+	width:80px;
+	height:80px;
+	background:url(img/mon.png) no-repeat center center;
+	margin-left:-40px;
+}
+.pad{
+	padding-top:10px;
+}
+.clear{
+	clear:both;
+}
+.line{
+	border-bottom:1px solid rgba(255,255,255,.3);
+	margin:0 20px 20px 20px;
+	padding-top:20px;
+}
+a{
+	color:#3a290a;
+}
+footer{
+	margin:30px;
+}
+footer .inner{
+	border-top:1px solid rgba(255,255,255,.3);
+	text-align:center;
+	font-size:12px;
+	padding:10px 0 0 0 ;
+}
+
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+  /* some CSS here */
+  body{
+  	font-size:16px;
+  }
+  h1{
+  	font-size:42px;
+  	line-height: 36px;
+  	font-weight: 300;
+  }
+  .inner{
+  	width:90%;
+  }
+  .column{
+  	float:none;
+  	width:auto;
+  	margin:auto;
+  }
+}
+
+/* #### Mobile Phones Portrait or Landscape #### */
+@media screen and (max-device-width: 640px){
+  /* some CSS here */
+}
+
+/* #### iPhone 4+ Portrait or Landscape #### */
+@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){
+  /* some CSS here */
+}
+
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  /* some CSS here */
+}
+
+/* OVERRIDE BX SLIDER */
+.bx-wrapper .bx-viewport{
+	border:none !important;
+	background:transparent !important;
+}
+.bx-wrapper img {
+	margin: auto;
+}
