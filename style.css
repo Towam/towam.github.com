@@ -4,10 +4,10 @@ html,body{
 }
 
 body{
-	font-size:14px;
+	font-size:16px;
 	font-family: 'Lato', Arial, sans-serif;
 	color:#3a290a;
-	line-height:18px;
+	line-height:22px;
 	font-weight:300;
 	background:url(img/bg.jpg) repeat-x center 0 #c0bbba;
 }
@@ -41,7 +41,7 @@ h2{
 }
 
 .inner{
-	width:525px;
+	width:680px;
 	padding:0 5px;
 	margin:0 auto;
 }
